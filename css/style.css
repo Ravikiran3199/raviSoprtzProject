@@ -1,0 +1,268 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span {
+    font-family: 'Archivo';
+    margin-bottom: 0;
+}
+
+.Rectangle {
+    width: 375px;
+    height: 520px;
+    background: #002947;
+    padding: 10px 20px;
+    position: relative;
+}
+
+.padding-top {
+    padding-top: 24px;
+}
+
+.fas,
+.far {
+    color: #FFFFFF;
+    width: 20px;
+    height: 20px;
+}
+
+.heading {
+
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 22px;
+    color: #FFFFFF;
+}
+
+.time-span {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 86px;
+    height: 23px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    background: #024B5C;
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.count {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 36px;
+    height: 16px;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 2px;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+.heading-1 {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.count-color {
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.credit {
+    width: 82px;
+    height: 40px;
+    background: #024B5C;
+    border-radius: 4px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.credit h1 {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 17px;
+
+    color: #FFFFFF;
+}
+
+.credit h6 {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 17px;
+    margin-bottom: -5px;
+    margin-left: 5px;
+    color: #FFFFFF;
+}
+
+.credit .progress {
+    width: 70px;
+    height: 4px;
+    background: #000000;
+    opacity: 0.3;
+    border-radius: 22px;
+}
+
+.credit .progress-blue {
+    width: 33.94px;
+    height: 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background: #00B2DB;
+    border-radius: 22px;
+}
+
+.nav-pills {
+    width: 140px;
+    height: 40px;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 34px;
+    float: right;
+}
+
+.nav-pills .nav-link.active {
+    background: #E47C29;
+    border: none;
+}
+
+.nav-pills .nav-link {
+    width: 69px;
+    height: 38px;
+    border-radius: 34px;
+    background-color: transparent;
+    border: none;
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 13px;
+    color: #FFFFFF;
+}
+
+#pills-tabContent {
+    position: absolute;
+    top: 58px;
+    left: 0;
+    width: 338px;
+    height: 299px;
+    background: #FFFFFF;
+    border-radius: 6px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+#pills-tabContent::-webkit-scrollbar{
+    width: 0px;
+}
+
+.margin-top {
+    margin-top: -39px;
+}
+.table-header{
+    padding: 6px 30px;
+}
+.table-header h6 {
+    font-family: 'Archivo';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 8px;
+    line-height: 9px;
+    color: #474747;
+}
+.header{
+width: 100%;
+height: 22px;
+background: #E4E4E4;
+border-radius: 45px;
+}
+.img-size{
+    width: 31px;
+    height: 40px;
+}
+.table-row h6{
+    font-family: 'Archivo';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+}
+.table-row .text-secondary{
+    font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+}
+.table-row1{
+    background: #ddd;
+    margin: 0 -1px;
+/* opacity: 0.1; */
+border-radius: 6px;
+}
+.table-row1 h6{
+    font-family: 'Archivo';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 16px;
+}
+.table-row1 .text-secondary{
+    font-family: 'Archivo';
+font-style: normal;
+font-weight: 400;
+font-size: 12px;
+line-height: 16px;
+}
+.fa-plus-circle{
+    color: green;
+}
+.fa-minus-circle{
+    color: red;
+}
+#pills-profile img{
+    width: 339px;
+    object-fit: cover;
+}
+@media (max-width:1024px){
+    .Rectangle{
+        height: 100vh;
+    }
+}
